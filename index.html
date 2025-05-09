@@ -12,33 +12,101 @@
         <legend>Dados Pessoais</legend>
             <label for="inome">Nome Completo</label><br>
             <input type="text" name="nome " id="inome" placeholder="Digite seu nome completo"><br>
-
+                <br>
             <label for="iemail">Email</label><br>
             <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seuemail@exemplo.com"><br>
 
+                <br>    
             <label for="itelefone">Telefone</label><br>
             <input type="tel" name="telefone" id="itelefone" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)xxxx-xxxx"><br>
 
+                <br>         
             <label for="isenha">Crie uma senha</label><br>
             <input type="password" name="senha" id="isenha" placeholder="Digite sua senha"><br>
 
+                <br> 
             <label for="iIdade">Idade</label><br>
             <input type="number" name="idade" id="iIdade" placeholder="Sua idade"><br>
 
-            <label for="iEstados">Estado</label>
+            
+            <label for="iEstados">Estado</label> <br>
             <select name="estado" id="iestados">
             <option value="">--Selecione seu estado--</option>
-            <optgroup label="Região Nordeste">
+            <optgroup label="Regiões do Nordeste">
             <option value="MA">Maranhão</option>
             <option value="PE">Pernambuco</option>
             <option value="RN">Rio Grande do Norte</option>
-        
+            <option value="PI">Piauí</option>
+            <option value="PB">Paraíba</option>
+            <option value="AL">Alagoas</option>
+            <option value="SE">Sergipe</option>
+            <option value="BA">Bahia</option>
           </optgroup>
-        </select>
 
-            
-            
+          <optgroup label="Regiões do Norte">
+            <option value="AC">Acre</option>
+            <option value="AP">AMAPÁ</option>
+            <option value="AM">Amazonas</option>
+            <option value="PA">Pará</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="TO">Tocatins</option>
+          </optgroup>
+
+          <optgroup label="Regiões do Centro-Oeste">
+            <option value="GO">Goiás</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="DF">Brasília</option>
+          </optgroup>
+           
+          <optgroup label="Regiões do Sudoeste ">
+            <option value="ES">Espírito Santo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+          </optgroup>
+     
+          <optgroup label="Regiões do Sul">
+            <option value="PR">Paraná</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="RS">Rio Grande do Sul</option>
+          </optgroup><br>
+        </select><br>
+                <br>
+            <label for="ifoto">Envie uma foto da sua CNH: </label><br>
+            <input type="file" name="foto" id="ifoto">    
     </fieldset>
+    <br>
+    <fieldset>
+        <legend>Escolha do carro</legend>
+
+            <label for="imodelo">Escolha do Carro</label><br>
+            <input type="radio" name="modelo" id="imodelo"><label for="imodelos">BYD Seal</label><br>
+            <input type="radio" name="modelo" id="imodelo"><label for="imodelos">BYD Han</label><br>
+            <input type="radio" name="modelo" id="imodelo"><label for="imodelos">BYD Song Plus</label>
+            <br>
+            <br>
+            <label for="iItens">Itens adicionais</label><br>
+            <input type="checkbox" name="Itens"><label for="iItens">Som Premium </label><br>
+            <input type="checkbox" name="Itens"><label for="iItens">Ar-condicionado Digital</label><br>
+            <input type="checkbox" name="Itens"><label for="iItens">Camera 360°</label><br>
+            
+
+
+
+
+
+
+
+
+
+
+
+    </fieldset>
+
+
+        
 
     </form>
 </body>
